@@ -4,7 +4,7 @@ locals {
     "*.amazonaws.com",
     "cloud.google.com",
     "*.microsoft.com"
-    ]
+  ]
 }
 
 resource "aviatrix_web_group" "allow_internet_https" {
